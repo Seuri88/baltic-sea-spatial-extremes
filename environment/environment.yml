@@ -1,0 +1,30 @@
+name: baltic-extremes
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - numba
+  - joblib
+  - matplotlib
+  - seaborn
+  - plotly
+  - cartopy
+  - geopandas
+  - pyproj
+  - regionmask
+  - pymc
+  - pytensor
+  - arviz
+  - pymc_extras
+  - ot
+  - jupyter
+  - notebook
+  - ipykernel
+  - pip
+  - pip:
+      # add any pip-only packages your notebook uses
+      # e.g. fathon, swemaps
